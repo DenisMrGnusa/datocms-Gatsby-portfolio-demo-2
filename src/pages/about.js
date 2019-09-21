@@ -9,7 +9,11 @@ const About = ({ data: { about } }) => (
     <article className="sheet">
       <HelmetDatoCms seo={about.seoMetaTags} />
       <div className="sheet__inner">
+<<<<<<< HEAD
         <h3 className="sheet__title">{about.title}</h3>
+=======
+        <h1 className="sheet__title">{about.title} Hallo GNUSA 123</h1>
+>>>>>>> parent of fda7d49... Update about.js
         <p className="sheet__lead">{about.subtitle}</p>
         <div className="sheet__gallery">
           <Img fluid={about.photo.fluid} />
