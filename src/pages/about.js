@@ -13,6 +13,7 @@ const About = ({ data: { about } }) => (
         <p className="sheet__lead">{about.subtitle}</p>
         <div className="sheet__gallery">
           <Img fluid={about.photo.fluid} />
+          Hallo GNUSA 123
         </div>
         <div
           className="sheet__body"
